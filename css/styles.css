@@ -1,0 +1,51 @@
+/* FONTS
+font-family: 'Diplomata SC', Garamond, cursive;
+font-family: 'EB Garamond', Garamond, serif;
+*/
+
+body {
+    font-family: 'Diplomata SC', Garamond, cursive;
+    background-color: #363062;
+    color: #E9D5CA;
+
+}
+
+main {
+    background-image: url(/images/1922Louisville2.jpg);
+    /*Image Credits
+    Kentucky scenes: Main Street, Louisville, showing Carter Dry Good Co.
+    Photographer: Caulfield & Shook
+    Year: circa. 1922
+    Rights: Public Domain
+    Source: Library of Congress
+    Source URL: https://www.loc.gov/item/2016649430/ */
+    display: flex;
+}
+
+.main-container {
+    font-family: 'EB Garamond', Garamond, serif;
+    background-color: #4D4C7D;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1em 5em;
+}
+
+.newspaper-header {
+    font-weight: 700;
+    margin: auto;
+}
+
+.newspaper-body {
+    font-weight: 400;
+}
+
+
+
+
+/*color palette from Color Hunt – https://colorhunt.co/palette/e9d5ca8273974d4c7d363062 
+#E9D5CA
+#827397
+#4D4C7D
+#363062
+*/
