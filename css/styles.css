@@ -34,10 +34,12 @@ main {
 .newspaper-header {
     font-weight: 700;
     margin: auto;
+    
 }
 
 .newspaper-body {
     font-weight: 400;
+    text-indent: 1em;
 }
 
 
