@@ -3,6 +3,16 @@ font-family: 'Diplomata SC', Garamond, cursive;
 font-family: 'EB Garamond', Garamond, serif;
 */
 
+
+.menu-top {
+    overflow: hidden;
+    background-color: pink;
+    position: relative;
+}
+.menu-top #menu-links {
+    display: none;
+}
+
 body {
     font-family: 'Diplomata SC', Garamond, cursive;
     background-color: #363062;
@@ -43,6 +53,13 @@ main {
     text-indent: 1em;
 }
 
+.newspaper-footer {
+    font-weight: 400;
+    margin: auto 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 

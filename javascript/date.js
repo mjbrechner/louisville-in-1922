@@ -1,3 +1,5 @@
+'use strict';
+
 let today = new(Date);
 let day = today.getDate();
 let monthNum = today.getMonth() + 1;
@@ -29,7 +31,7 @@ if (monthNum === 1) {
     monthName = 'November';
 } else if (monthNum === 12) {
     monthName = 'December';
-} 
+}
 
-console.log("Today is " + day + " " + monthName + " " + year + ".");
-console.log("Let us travel back in time " + yearsSince1922 + " years to peek into the Louisville of 1922.");
+document.getElementById('date-display1').textContent = `Today is ${day} ${monthName}`;
+document.getElementById('date-display2').textContent = `Let us travel back in time ${yearsSince1922} years to peek into a news story on this day in 1922.`;
