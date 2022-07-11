@@ -48,9 +48,15 @@ main {
     
 }
 
+#article-title, #article-subtitle {
+margin: 0.25em;
+}
+
 .newspaper-body {
     font-weight: 400;
+    margin: auto 0.25em;
     text-indent: 1em;
+    text-align: left;
 }
 
 .newspaper-footer {

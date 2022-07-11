@@ -14,3 +14,5 @@ document.getElementById('article-body').textContent = artBody;
 document.getElementById('article-date').textContent = `${artDay} ${artMonth} 1922`;
 document.getElementById('article-page').textContent = `p. ${artPage}`;
 
+
+
