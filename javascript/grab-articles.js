@@ -1,7 +1,5 @@
 'use strict';
 
-console.log(June30);
-
 // document.getElementById('article-title').textContent = June30.artTitle;
 // document.getElementById('article-subtitle').textContent = June30.artSubtitle;
 // document.getElementById('article-body').textContent = June30.artBody;
@@ -10,16 +8,8 @@ console.log(June30);
 
 
 let artDate;
-
-if (monthNum === 7) {
-
-if (day === 11) {
-artDate = Jul11;
-
-}
-
-}
-
+artDate = monthName+day;
+artDate = July12;
 
 document.getElementById('article-title').textContent = artDate.artTitle;
 document.getElementById('article-subtitle').textContent = artDate.artSubtitle;

@@ -33,5 +33,7 @@ if (monthNum === 1) {
     monthName = 'December';
 }
 
+
+
 document.getElementById('date-display1').textContent = `Today is ${day} ${monthName}`;
 document.getElementById('date-display2').textContent = `Let us travel back in time ${yearsSince1922} years to peek into a news story on this day in 1922.`;
