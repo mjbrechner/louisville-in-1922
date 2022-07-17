@@ -10,7 +10,7 @@ for (const e of artArray) {
         document.getElementById('article-body').textContent = e.artContents.artBody;
         document.getElementById('article-paper').textContent = "Louisville Courier-Journal";
         document.getElementById('article-date').textContent = `${e.artDateIdentifier} 1922`;
-        document.getElementById('article-page').textContent = `${e.artContents.artPage}`;
+        document.getElementById('article-page').textContent = `p. ${e.artContents.artPage}`;
         break;
     } else if (artDate === "29 February") {
         document.getElementById('article-title').textContent = "Leap Year!";
