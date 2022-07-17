@@ -9,6 +9,7 @@ font-family: 'EB Garamond', Garamond, serif;
     background-color: pink;
     position: relative;
 }
+
 .menu-top #menu-links {
     display: none;
 }
@@ -21,6 +22,9 @@ body {
     text-align: center;
 }
 
+a:visited {
+    color: #E9D5CA;
+}
 
 .header-top {
     display: flex;
@@ -28,26 +32,34 @@ body {
     flex-wrap: nowrap;
     justify-content: space-around;
 }
-.fleurdelis {
-    width: 3em;
-    height: 3em;
-    margin: 10px;
+
+.fleurdelis-left {
+    width: 1.5em;
+    height: 1.5em;
+    margin: .5em;
+    visibility: visible;
 }
+
+.fleurdelis-right {
+    width: 1.5em;
+    height: 1.5em;
+    margin: .5em;
+    visibility: hidden;
+}
+
 .page-header {
-   font-size: 2em;
-   margin: 10px;
+    font-size: 1.5em;
+    margin: .5em;
+}
+
+#date-display2 {
+font-family: 'EB Garamond', Garamond, serif;
 }
 
 main {
-    background-image: url(../images/1922Louisville2.jpg);
-    /*Image Credits
-    Kentucky scenes: Main Street, Louisville, showing Carter Dry Good Co.
-    Photographer: Caulfield & Shook
-    Year: circa. 1922
-    Rights: Public Domain
-    Source: Library of Congress
-    Source URL: https://www.loc.gov/item/2016649430/ */
     display: flex;
+    background-color: #E9D5CA;
+    border-radius: 1%;
 }
 
 .main-container {
@@ -56,17 +68,19 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 1em 5em;
+    margin: .5em;
+    border-radius: 1%;
 }
 
 .newspaper-header {
     font-weight: 700;
     margin: auto;
-    
+
 }
 
-#article-title, #article-subtitle {
-margin: 0.25em;
+#article-title,
+#article-subtitle {
+    margin: 0.25em;
 }
 
 .newspaper-body {
@@ -80,10 +94,24 @@ margin: 0.25em;
     font-weight: 400;
     margin: auto 1em;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    font-size: .75em;
 }
 
+#article-paper,
+#article-date {
+    margin: .25em auto;
+}
+
+#article-page {
+    margin: .25em auto .5em;
+}
+
+footer {
+    font-family: 'EB Garamond', Garamond, serif;
+    margin-top: .5em;
+    font-size: .75em;
+}
 
 
 /*color palette from Color Hunt – https://colorhunt.co/palette/e9d5ca8273974d4c7d363062 
@@ -92,3 +120,85 @@ margin: 0.25em;
 #4D4C7D
 #363062
 */
+
+
+/*tablet query*/
+@media only screen and (min-width: 768px) {
+
+    .fleurdelis-right {
+        visibility: visible;
+    }
+
+    main {
+        background-image: url(../images/1922Louisville2.jpg);
+        /*Image Credits
+    Kentucky scenes: Main Street, Louisville, showing Carter Dry Good Co.
+    Photographer: Caulfield & Shook
+    Year: circa. 1922
+    Rights: Public Domain
+    Source: Library of Congress
+    Source URL: https://www.loc.gov/item/2016649430/ */
+    }
+
+    .main-container {
+        margin: 1em 5em 5em;
+    }
+
+    .newspaper-body {
+        font-size: 1.15em;
+    }
+
+    .newspaper-footer {
+        font-weight: 400;
+        margin: auto 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: .90em;
+    }
+
+    footer {
+        font-size: .90em;
+    }
+
+}
+
+/*desktop query*/
+@media only screen and (min-width: 992px) {
+    .fleurdelis-left {
+        width: 5em;
+        height: 5em;
+    }
+
+    .fleurdelis-right {
+        width: 5em;
+        height: 5em;
+    }
+
+    .page-header {
+        font-size: 2.5em;
+    }
+
+    .main-container {
+        margin: 1em 5em 400px;
+    }
+
+    .newspaper-body {
+        font-size: 1.25em;
+    }
+
+    .newspaper-footer {
+        font-size: 1em;
+    }
+
+    #article-paper,
+    #article-date,
+    #article-page {
+        margin: 1em;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
+}
