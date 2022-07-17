@@ -2,7 +2,7 @@
 
 let artDate;
 artDate = `${day} ${monthName}`;
-
+artDate = "2 August";
 for (const e of artArray) {
     if (e.artDateIdentifier === artDate) {
         document.getElementById('article-title').textContent = e.artContents.artTitle;
