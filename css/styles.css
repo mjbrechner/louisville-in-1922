@@ -13,12 +13,29 @@ font-family: 'EB Garamond', Garamond, serif;
     display: none;
 }
 
+
 body {
     font-family: 'Diplomata SC', Garamond, cursive;
     background-color: #363062;
     color: #E9D5CA;
     text-align: center;
+}
 
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.fleurdelis {
+    width: 3em;
+    height: 3em;
+    margin: 10px;
+}
+.page-header {
+   font-size: 2em;
+   margin: 10px;
 }
 
 main {
