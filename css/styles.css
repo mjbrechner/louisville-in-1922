@@ -1,6 +1,12 @@
 /* FONTS
 font-family: 'Diplomata SC', Garamond, cursive;
 font-family: 'EB Garamond', Garamond, serif;
+
+color palette from Color Hunt – https://colorhunt.co/palette/e9d5ca8273974d4c7d363062 
+#E9D5CA
+#827397
+#4D4C7D
+#363062
 */
 
 body {
@@ -35,16 +41,13 @@ a:visited {
     display: none;
 }
 
-nav {
-    display: none;
-}
-
 .hamburger-menu {
     width: 1.5em;
     height: 1.5em;
     margin: .5em;
     background-color: #363062;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .hamburger-lines {
@@ -55,47 +58,57 @@ nav {
     border-radius: 5px;
 }
 
-
 .hamburger-menu:hover .hamburger-lines {
     background-color: #827397;
 }
+
 .page-header {
     font-size: 1.5em;
     margin: .5em;
+}
+
+#nav-menu {
+    display: none;
+    cursor: pointer;
+}
+
+nav>.menu-set {
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #E9D5CA;
+    background-color: #827397;
+}
+
+.menu-set>li {
+    width: 100%;
+}
+
+.menu-set>li:hover {
+    color: #827397;
+    background-color: #E9D5CA;
 }
 
 #date-display2 {
     font-family: 'EB Garamond', Garamond, serif;
 }
 
-nav > .month-menu {
-    text-align: left;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color:#E9D5CA;
-    background-color: #827397;
-}
-
-.month-menu > li:hover {
-    color: #827397;
-    background-color: #E9D5CA;
-}
-
 main {
     display: flex;
     background-color: #E9D5CA;
-    border-radius: 1%;
+    border-radius: 5px;
 }
 
-.main-container {
+.main-container, .main-alt-container {
     font-family: 'EB Garamond', Garamond, serif;
     background-color: #4D4C7D;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: .5em;
-    border-radius: 1%;
+    border-radius: 5px;
 }
 
 .newspaper-header {
@@ -105,16 +118,17 @@ main {
 }
 
 #article-title,
-#article-subtitle {
+#article-subtitle, .credits-title {
     margin: 0.25em;
 }
 
-.newspaper-body {
+.newspaper-body, .credits-body {
     font-weight: 400;
     margin: auto 0.25em;
     text-indent: 1em;
     text-align: left;
 }
+
 
 .newspaper-footer {
     font-weight: 400;
@@ -139,15 +153,6 @@ footer {
     font-size: .75em;
 }
 
-
-/*color palette from Color Hunt – https://colorhunt.co/palette/e9d5ca8273974d4c7d363062 
-#E9D5CA
-#827397
-#4D4C7D
-#363062
-*/
-
-
 /*tablet query*/
 @media only screen and (min-width: 768px) {
 
@@ -158,6 +163,23 @@ footer {
     .hamburger-menu {
         display: none;
     }
+
+    #nav-menu {
+        display: block;
+    }
+
+    nav>.menu-set {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: .25em;
+        text-align: center;
+    }
+
+        .menu-set>li {
+        display:flex;
+    justify-content: center;
+align-items: center;}
 
     main {
         background-image: url(../images/1922Louisville2.jpg);
@@ -170,7 +192,7 @@ footer {
     Source URL: https://www.loc.gov/item/2016649430/ */
     }
 
-    .main-container {
+    .main-container, .main-alt-container {
         margin: 1em 5em 5em;
     }
 
@@ -209,7 +231,18 @@ footer {
         font-size: 2.5em;
     }
 
-    .main-container {
+    nav>.menu-set {
+        height: 3em;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0 1em;
+    }
+
+    .menu-set>li {
+        height: 3em;
+    }
+
+    .main-container, .main-alt-container {
         margin: 1em 5em 175px;
     }
 
