@@ -37,23 +37,61 @@ a:visited {
     width: 1.5em;
     height: 1.5em;
     margin: .5em;
-    visibility: visible;
+    display: block;
 }
 
 .fleurdelis-right {
     width: 1.5em;
     height: 1.5em;
     margin: .5em;
-    visibility: hidden;
+    display: none;
 }
 
+nav {
+    display: none;
+}
+
+.hamburger-menu {
+    width: 1.5em;
+    height: 1.5em;
+    margin: .5em;
+    background-color: #363062;
+    border-radius: 5px;
+}
+
+.hamburger-lines {
+    width: 1.5em;
+    height: .25em;
+    margin: .25em 0;
+    background-color: #E9D5CA;
+    border-radius: 5px;
+}
+
+
+.hamburger-menu:hover .hamburger-lines {
+    background-color: #827397;
+}
 .page-header {
     font-size: 1.5em;
     margin: .5em;
 }
 
 #date-display2 {
-font-family: 'EB Garamond', Garamond, serif;
+    font-family: 'EB Garamond', Garamond, serif;
+}
+
+nav > .month-menu {
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:#E9D5CA;
+    background-color: #827397;
+}
+
+.month-menu > li:hover {
+    color: #827397;
+    background-color: #E9D5CA;
 }
 
 main {
@@ -126,7 +164,11 @@ footer {
 @media only screen and (min-width: 768px) {
 
     .fleurdelis-right {
-        visibility: visible;
+        display: block;
+    }
+
+    .hamburger-menu {
+        visibility: hidden;
     }
 
     main {
