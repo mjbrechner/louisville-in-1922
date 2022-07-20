@@ -122,15 +122,13 @@ main {
     border-radius: 5px;
 }
 
-.newspaper-header, .alt-header {
+.newspaper-header,
+.alt-header {
     font-weight: 700;
+    font-size: 1em;
     margin: auto;
 }
 
-.alt-header {
-margin: 0
-
-}
 #article-title,
 #article-subtitle,
 .alt-title {
@@ -177,7 +175,7 @@ footer {
 /* Credits page */
 
 .credits-newspaper-wrapper {
-margin: 2em 0;
+    margin: 2em 0;
 }
 
 .credits-photo-wrapper {
@@ -194,10 +192,11 @@ margin: 2em 0;
     border-radius: 5px;
 }
 
-.credits-body> h2 {
+.credits-body>h2 {
     margin: 1em 0 .5em;
 }
-.credits-body> p {
+
+.credits-body>p {
     margin: .25em;
 }
 
@@ -239,7 +238,7 @@ margin: 2em 0;
 
     #date-display1,
     #date-display2 {
-        font-size: 1.15em;
+        font-size: 1.12em;
         margin: .75em 0;
     }
 
@@ -248,7 +247,13 @@ margin: 2em 0;
         margin: 1em 5em 5em;
     }
 
-    .newspaper-body, .alt-body {
+    .newspaper-header,
+    .alt-header {
+        font-size: 1.12em;
+    }
+
+    .newspaper-body,
+    .alt-body {
         font-size: 1.15em;
     }
 
@@ -294,7 +299,7 @@ margin: 2em 0;
 
     #date-display1,
     #date-display2 {
-        font-size: 1.35em;
+        font-size: 1.25em;
         margin: 1em 0;
     }
 
@@ -303,7 +308,13 @@ margin: 2em 0;
         margin: 1em 5em 400px;
     }
 
-    .newspaper-body, .alt-body {
+    .newspaper-header,
+    .alt-header {
+        font-size: 1.25em;
+    }
+
+    .newspaper-body,
+    .alt-body {
         font-size: 1.25em;
     }
 
