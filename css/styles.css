@@ -16,8 +16,22 @@ body {
     text-align: center;
 }
 
-a:visited {
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    height: 100%;
     color: #E9D5CA;
+    background-color: #827397;
+}
+
+a:hover {
+    color: #827397;
+    background-color: #E9D5CA;
 }
 
 .header-top {
@@ -73,22 +87,16 @@ a:visited {
 }
 
 nav>.menu-set {
-    text-align: left;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: #E9D5CA;
-    background-color: #827397;
 }
 
 .menu-set>li {
     width: 100%;
+    text-align: left;
 }
 
-.menu-set>li:hover {
-    color: #827397;
-    background-color: #E9D5CA;
-}
 
 #date-display2 {
     font-family: 'EB Garamond', Garamond, serif;
@@ -100,7 +108,8 @@ main {
     border-radius: 5px;
 }
 
-.main-container, .main-alt-container {
+.main-container,
+.main-alt-container {
     font-family: 'EB Garamond', Garamond, serif;
     background-color: #4D4C7D;
     width: 100%;
@@ -118,11 +127,13 @@ main {
 }
 
 #article-title,
-#article-subtitle, .credits-title {
+#article-subtitle,
+.alt-title {
     margin: 0.25em;
 }
 
-.newspaper-body, .credits-body {
+.newspaper-body,
+.alt-body {
     font-weight: 400;
     margin: auto 0.25em;
     text-indent: 1em;
@@ -176,10 +187,6 @@ footer {
         text-align: center;
     }
 
-        .menu-set>li {
-        display:flex;
-    justify-content: center;
-align-items: center;}
 
     main {
         background-image: url(../images/1922Louisville2.jpg);
@@ -192,7 +199,14 @@ align-items: center;}
     Source URL: https://www.loc.gov/item/2016649430/ */
     }
 
-    .main-container, .main-alt-container {
+        #date-display1,
+    #date-display2 {
+        font-size: 1.15em;
+        margin: .75em 0;
+    }
+
+    .main-container,
+    .main-alt-container {
         margin: 1em 5em 5em;
     }
 
@@ -233,8 +247,6 @@ align-items: center;}
 
     nav>.menu-set {
         height: 3em;
-        justify-content: center;
-        align-items: center;
         margin: 1em 0 1em;
     }
 
@@ -242,8 +254,15 @@ align-items: center;}
         height: 3em;
     }
 
-    .main-container, .main-alt-container {
-        margin: 1em 5em 175px;
+    #date-display1,
+    #date-display2 {
+        font-size: 1.35em;
+        margin: 1em 0;
+    }
+
+    .main-container,
+    .main-alt-container {
+        margin: 1em 5em 400px;
     }
 
     .newspaper-body {
