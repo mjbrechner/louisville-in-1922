@@ -17,7 +17,7 @@ body {
 }
 
 a {
-color: #E9D5CA;
+    color: #E9D5CA;
 }
 
 .header-top {
@@ -83,7 +83,7 @@ nav>.menu-set {
     text-align: left;
 }
 
-.menu-set > li > a {
+.menu-set>li>a {
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -95,7 +95,7 @@ nav>.menu-set {
     background-color: #827397;
 }
 
-.menu-set > li > a:hover {
+.menu-set>li>a:hover {
     color: #827397;
     background-color: #E9D5CA;
 }
@@ -122,26 +122,34 @@ main {
     border-radius: 5px;
 }
 
-.newspaper-header {
+.newspaper-header, .alt-header {
     font-weight: 700;
     margin: auto;
-
 }
 
+.alt-header {
+margin: 0
+
+}
 #article-title,
 #article-subtitle,
 .alt-title {
     margin: 0.25em;
 }
 
-.newspaper-body,
-.alt-body {
+.newspaper-body {
     font-weight: 400;
     margin: auto 0.25em;
     text-indent: 1em;
     text-align: left;
 }
 
+.alt-body {
+    font-weight: 400;
+    margin: auto 0.25em;
+    text-indent: 0;
+    text-align: left;
+}
 
 .newspaper-footer {
     font-weight: 400;
@@ -165,6 +173,34 @@ footer {
     margin-top: .5em;
     font-size: .75em;
 }
+
+/* Credits page */
+
+.credits-newspaper-wrapper {
+margin: 2em 0;
+}
+
+.credits-photo-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+
+.credits-image {
+    height: 150px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.credits-body> h2 {
+    margin: 1em 0 .5em;
+}
+.credits-body> p {
+    margin: .25em;
+}
+
 
 /*tablet query*/
 @media only screen and (min-width: 768px) {
@@ -201,7 +237,7 @@ footer {
     Source URL: https://www.loc.gov/item/2016649430/ */
     }
 
-        #date-display1,
+    #date-display1,
     #date-display2 {
         font-size: 1.15em;
         margin: .75em 0;
@@ -212,7 +248,7 @@ footer {
         margin: 1em 5em 5em;
     }
 
-    .newspaper-body {
+    .newspaper-body, .alt-body {
         font-size: 1.15em;
     }
 
@@ -267,7 +303,7 @@ footer {
         margin: 1em 5em 400px;
     }
 
-    .newspaper-body {
+    .newspaper-body, .alt-body {
         font-size: 1.25em;
     }
 
