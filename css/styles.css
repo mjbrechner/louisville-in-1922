@@ -172,7 +172,11 @@ footer {
     font-size: .75em;
 }
 
-/* Credits page */
+/* additional styles for about, credits, and contact pages */
+
+.about-body, .contact-body {
+    text-indent: 1em;
+}
 
 .credits-newspaper-wrapper {
     margin: 2em 0;
@@ -199,6 +203,7 @@ footer {
 .credits-body>p {
     margin: .25em;
 }
+
 
 
 /*tablet query*/
