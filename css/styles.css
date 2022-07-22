@@ -30,14 +30,19 @@ a {
 .fleurdelis-left {
     width: 1.5em;
     height: 1.5em;
-    margin: .5em;
+    margin: 1em;
     display: block;
+}
+
+.page-header {
+    font-size: 1.5em;
+    margin: .5em;
 }
 
 .fleurdelis-right {
     width: 1.5em;
     height: 1.5em;
-    margin: .5em;
+    margin: 1em;
     display: none;
 }
 
@@ -60,11 +65,6 @@ a {
 
 .hamburger-menu:hover .hamburger-lines {
     background-color: #827397;
-}
-
-.page-header {
-    font-size: 1.5em;
-    margin: .5em;
 }
 
 #nav-menu {
@@ -174,7 +174,8 @@ footer {
 
 /* additional styles for about, credits, and contact pages */
 
-.about-body, .contact-body {
+.about-body,
+.contact-body {
     text-indent: 1em;
 }
 
@@ -209,7 +210,20 @@ footer {
 /*tablet query*/
 @media only screen and (min-width: 768px) {
 
+    .fleurdelis-left {
+        width: 2.5em;
+        height: 2.5em;
+        margin: .5em;
+    }
+
+    .page-header {
+        font-size: 2em;
+    }
+
     .fleurdelis-right {
+        width: 2.5em;
+        height: 2.5em;
+        margin: .5em;
         display: block;
     }
 
@@ -284,13 +298,13 @@ footer {
         height: 5em;
     }
 
+    .page-header {
+        font-size: 2.5em;
+    }
+
     .fleurdelis-right {
         width: 5em;
         height: 5em;
-    }
-
-    .page-header {
-        font-size: 2.5em;
     }
 
     nav>.menu-set {
@@ -310,7 +324,7 @@ footer {
 
     .main-container,
     .main-alt-container {
-        margin: 1em 5em 400px;
+        margin: 3em 6em 350px;
     }
 
     .newspaper-header,
