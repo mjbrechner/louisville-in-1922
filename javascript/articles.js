@@ -2173,9 +2173,9 @@ const artArray = [
     },
 
     {
-        artDateIdentifier: "No Longer May Bartenders In Raids Lose Rum In Bucket Of Water",
+        artDateIdentifier: "6 August",
         artContents: {
-            artTitle: "Headline for 6 August 1922",
+            artTitle: "No Longer May Bartenders In Raids Lose Rum In Bucket Of Water",
             artSubtitle: "Agents Take All to Jail; Woman With 2-Gallon Still Would Take Poodle Along to Station",
             artBody: "It used to be a safe procedure to toss whisky into a bucket of water when prohibition agents dropped in, but that was a week or so ago. George Gambert, bartender, is said to have been serving two drinks of moonshine yesterday when agents visited the Jefferson Hotel, 421 East Jefferson Street. Gambert laughed, according to the agents, as he tossed the liquor into a pail of water. But Gambert, water, bucket and all were taken to the Central police station. Ed Lands is said to have repeated Gambert's performance when the Federal agents arrived at his soft drink stand at Preston and Kentucky Streets. That made two prisoners and two buckets of water the agents took to the station. A two-gallon still - said to be the smallest ever found in Louisville - was seized at the home of Mrs. Anna Hames, 620 South Nineteenth Street. Mrs. James refused to part with a poodle, but it finally was taken from her, after it was explained that there are no kennels at the jail. Theodore Schultheis, 106 Pope Street, was arrested after two stills are said to have been found in operation at his home. The stills, 600 gallons of mash, and twenty gallons of whisky were destroyed. A bottle of beer, alleged to have contained more than the legal alcoholic percentage was seized at the soft drink stand of I**y Slater, 1701 West Market Street. Slater was arrested.",
             artPage: "1"
@@ -2215,30 +2215,30 @@ const artArray = [
     {
         artDateIdentifier: "10 August",
         artContents: {
-            artTitle: "Headline for 10 August 1922",
-            artSubtitle: "Subtitle for 10 August",
-            artBody: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            artPage: "1"
+            artTitle: "Fair Benefits City, Club Is Told By Speakers",
+            artSubtitle: " ",
+            artBody: "Concrete evidence of the benefits that Louisville derives from the Kentucky State Fair were pointed out in appeals for support of the 1922 meeting at the Kiwanis Club luncheon at The Tyler yesterday. For the week of the fair last year, C. A. Taylor, a member of the Advisory Committee on Special Days, said the bank clearings here were $25,805,922, as compared with $17,960,359 the week before. Other talks were made by W. C. Hanna, Commissioner of Agriculture; Smith T. Bailey, in charge of the Ticket Committee, and J. Lewis Letterle, who represents this district on the State Fair Board.",
+            artPage: "2"
         }
     },
 
     {
         artDateIdentifier: "11 August",
         artContents: {
-            artTitle: "Headline for 11 August 1922",
-            artSubtitle: "Subtitle for 11 August",
-            artBody: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            artPage: "1"
+            artTitle: "Department Store Employes Picnic With the Bosses",
+            artSubtitle: " ",
+            artBody: "Employes of Herman Straus & Sons Company were guests of their employers at an outing at the State Fairgrounds yesterday. The day was spent in having as much fun as possible. There were numerous entries in the various contests scheduled, such as foot races, motorcycle races and so on. Burgoo was served at  lunch time to the hundreds who attended. Officers of the company last night expressed their pleasure and complete satisfaction with the day’s outing.",
+            artPage: "3"
         }
     },
 
     {
         artDateIdentifier: "12 August",
         artContents: {
-            artTitle: "Headline for 12 August 1922",
-            artSubtitle: "Subtitle for 12 August",
-            artBody: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            artPage: "1"
+            artTitle: "5 Police Raids In 3 Sections of City Net Liquor; Gambling Materials",
+            artSubtitle: "Pennsylvania Rye, Bourbon Whisky and Elaborate Betting Systems Are Uncovered By Officers’ Sortie",
+            artBody: "Five raids were made by police almost simultaneously in three sections of the city early yesterday afternoon and twelve arrests were made for alleged violations of the gambling and prohibition laws. Information that a well-equipped poolroom was in existence on Avery Street, between Third and Fourth Streets, resulted in police, under Cap. E. A. Larkin, breaking in the doors of a double establishment. Before they entered, a score of operators and patrons are said to have fled. The police found an elaborate system for betting on horse races, they said. A telephone switchboard had been fitted up to communicate with different parts of the house, it is charged. A moving van was used to move the paraphernalia and furniture to the City Hall and Sixth District Police Station. No arrests were made. A second pool room was uncovered according to the police when Capt. John Younger and police of the Third District raided mcGill’s cafe at Ninth and Jefferson Streets and arrested six men in a room adjoining the place where a handbook is said to have been operated. Jerry Hanlon, 39 years old, was charged with violating the prohibition law and engaging in a hazard, and Louis Meyers, 45, alleged bartender, was charged with violating the prohibition law. Four others arrested, charged with breach of peace, gave their names as C. E. White, 48; Charles Wilson, 48; Charles Johnson, 48, and R. G. Grayson, 36 The largest amount of bottled in bond whisky found at a saloon in several weeks was seized by the police at the cafe of Thomas Hicks, Market Street, between Sixth and Seventh Streets. The police found fourteen cases of bottled \"Pennsylvania Rye\" and a cask of Bourbon whisky with a total valuation estimated at $2,000. A poolroom also was located on Hick’s premises, according to the raiders led by Lieut. Edward J. Gernert and Sergt. Felix Owens. Besides being slated on a charge of violating the prohibition law, Hicks was charged with engaging in a hazard. Joe Columbus, 53; W. H. Roose, 44, and C. W. Heckter, 52, were charged with engaging in a hazard. Three gallons of white liquor were seized by the police in a raid on the cafe of Frank Zoll, Shelby and Franklin Streets. Zoll was arrested by Capt. Irvin Lloyd. Williams Stucker, 36 years old, was arrested when police fo the Second District raided an alleged handbook in a room at 423 West Jefferson Street. He is charged with engaging in a hazard.",
+            artPage: "1, 3"
         }
     },
 
@@ -3295,10 +3295,10 @@ const artArray = [
     {
         artDateIdentifier: "26 November",
         artContents: {
-            artTitle: "Headline for 26 November 1922",
-            artSubtitle: "Subtitle for 26 November",
-            artBody: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            artPage: "1"
+            artTitle: "Special Services Called for St. Paul’s",
+            artSubtitle: "Episcopal Churches to Unite In Thanksgiving Day Observance",
+            artBody: "Several services of importance will mark this week’s programme at St. Paul’s Episcopal Church, Fourth Street at Central Park, of which the Rev. David Cady Wright is the rector. Today the Sunday-school will hold its annual Home Harvest Festival at 9:30 o’clock. Some fitting exercises will be given and all donations of fruit provisions and groceries brought by members of the school will be sent to the Boys’ Orphanage. Congregational Rally Day will be at 11 o’clock this morning, when the rector will have some particular remarks to make to members of his congregation personally. Thanksgiving services for the four downtown Episcopal Churches will be held at St. Paul’s Church Thursday morning at 10:30 o’clock. Churches included and their rectors who participate in the service are: Christ Church Cathedral and the Very Rev. R. L. McCready, Calvary Church and the Rev. Harris Mallinckrodt, St. Andrew’s Church and the Rev. J. S. Douglas, St. Paul’s Church and the Rev. Mr. Wright. The Thanksgiving sermon will be preached by Bishop Charles E. Woodcock, and special musical numbers will be given by the vested choir under the director of Earl Weldon, organist and choir leader.",
+            artPage: "C2"
         }
     },
 
