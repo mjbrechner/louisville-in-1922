@@ -1,7 +1,6 @@
 'use strict';
 
 const artArray = [
-
     {
         artDateIdentifier: "1 January",
         artContents: {
